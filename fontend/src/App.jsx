@@ -14,12 +14,14 @@ function App() {
         <thead>
           <th>ID</th>
           <th>Name</th>
+          <th>Sal</th>
         </thead>
         <tbody>
           {data.map((d,i)=>(
             <tr key={i}>
               <td>{d.id}</td>
               <td>{d.name}</td>
+              <td>{d.sal}</td>
             </tr>
           ))}
         </tbody>
